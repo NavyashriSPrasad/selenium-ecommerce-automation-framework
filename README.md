@@ -2,20 +2,23 @@
 
 ## Project Overview
 
-This project is an end-to-end automation framework developed for the SauceDemo web application using Selenium WebDriver, Java, TestNG, and Maven.
+This project is an end-to-end Selenium Automation Framework developed using Java, Selenium WebDriver, TestNG, Maven, Apache POI, and Extent Reports.
 
-## Features Automated
+The framework automates key e-commerce workflows on SauceDemo and follows the Page Object Model (POM) design pattern for maintainability and scalability.
 
-* Login Functionality
-* Add to Cart Functionality
-* Checkout Process
-* Logout Functionality
-* Data-Driven Testing using TestNG DataProvider
-* Excel Data Handling using Apache POI
+## Features
+
+* Login Automation
+* Add To Cart Automation
+* Checkout Automation
+* Logout Automation
+* Data-Driven Testing using Excel
 * Screenshot Capture
 * Extent Reports
+* TestNG Suite Execution
+* Page Object Model (POM)
 
-## Technologies Used
+## Tech Stack
 
 * Java
 * Selenium WebDriver
@@ -26,46 +29,35 @@ This project is an end-to-end automation framework developed for the SauceDemo w
 * Git
 * GitHub
 
-## Framework Design Pattern
-
-Page Object Model (POM)
-
-## Project Structure
-
-SeleniumFramework
-
-├── src/test/java
-
-│ ├── base
-
-│ ├── pages
-
-│ ├── tests
-
-│ └── utilities
-
-├── testdata
-
-├── screenshots
-
-├── reports
-
-└── pom.xml
-
 ## Test Scenarios Covered
 
-1. Login with valid credentials
-2. Add product to cart
-3. Complete checkout process
-4. Logout from application
-
-## Reports
-
-Execution reports are generated using Extent Reports and stored in the reports folder.
+1. Login Validation
+2. Add Product to Cart
+3. Checkout Process
+4. Logout Functionality
+5. Data-Driven Login Testing
 
 ## Screenshots
 
-Execution screenshots are stored in the screenshots folder.
+### Login Success
+
+![Login](screenshots/LoginSuccess.png)
+
+### Add To Cart
+
+![Cart](screenshots/AddToCart.png)
+
+### Checkout Success
+
+![Checkout](screenshots/CheckoutSuccess.png)
+
+### Logout Success
+
+![Logout](screenshots/LogoutSuccess.png)
+
+### Extent Report
+
+![Report](screenshots/ExtentReport.png)
 
 ## Author
 
